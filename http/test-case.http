@@ -1,5 +1,5 @@
 ### Get all Customers
-GET http://localhost:3000/customers
+GET http://localhost:5000/customers
 Accept: application/json
 
 ### Get a Customer by ID
@@ -7,23 +7,23 @@ GET http://localhost:3000/customers/2
 Accept: application/json
 
 ### Save a new Customer
-POST http://localhost:3000/customers/save
+POST http://localhost:5000/customers/save
 Content-Type: application/json
 
 {
-  "name": "Test Add",
-  "lastname": "Test Add",
-  "ci": "987654321",
+  "name": "Yamil",
+  "lastname": "Paz",
+  "ci": "8413033",
   "status": 1
 }
 
 ### Update a Customer
-PUT http://localhost:3000/customers/4
+PUT http://localhost:5000/customers/1
 Content-Type: application/json
 
 {
-  "name": "Test Update",
-  "lastname": "Test Update",
+  "name": "Testian",
+  "lastname": "Test",
   "ci": "123456789",
   "status": 1
 }
